@@ -1,0 +1,14 @@
+{
+  "Development": {
+    "PORT": 1000,
+    "MONGO_URI": "mongodb://localhost:27017/ExamPrepration_Dev",
+    "JWT_SECRET": "SECRET@123",
+    "JWT_EXPIRY": "30d"
+  },
+  "Production": {
+    "PORT": 2000,
+    "MONGO_URI": "mongodb://localhost:27017/ExamPrepration_Dev",
+    "JWT_SECRET": "SECRET@123",
+    "JWT_EXPIRY": "30d"
+  }
+}
